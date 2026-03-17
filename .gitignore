@@ -1,0 +1,13 @@
+# Data files
+/data/processed/
+/data/raw/
+
+# Notebooks
+*.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Reports
+/reports/dashboard_screenshots/
