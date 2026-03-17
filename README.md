@@ -18,7 +18,16 @@ Ce projet vise à construire un dashboard interactif pour analyser la performanc
 - Quels clients rapportent le plus ?
 
 ## Démarrage rapide
-1. Placer le fichier `superstore.csv` dans `data/raw/`
-2. Lancer le script de nettoyage : `python scripts/data_cleaning.py`
-3. Explorer les analyses dans `notebooks/data_analysis.ipynb`
-4. Importer les données propres dans SAS Visual Analytics
+1. Créer un environnement virtuel Python :
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+2. Installer les dépendances :
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Placer le fichier `superstore.csv` dans `data/raw/`
+4. Lancer le script de nettoyage : `python scripts/data_cleaning.py`
+5. Explorer les analyses dans `notebooks/data_analysis.ipynb`
+6. Importer les données propres dans SAS Visual Analytics
