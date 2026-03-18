@@ -31,3 +31,6 @@ Ce projet vise à construire un dashboard interactif pour analyser la performanc
 4. Lancer le script de nettoyage : `python scripts/data_cleaning.py`
 5. Explorer les analyses dans `notebooks/data_analysis.ipynb`
 6. Importer les données propres dans SAS Visual Analytics
+
+## Auteurs
+- Fouad MOUTAIROU
